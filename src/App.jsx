@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import Section1 from "./component/Section1";
 
 function App() {
   return (
     <>
-      <p>Hello world</p>
+      <Section1 />
     </>
   );
 }
