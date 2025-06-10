@@ -8,7 +8,7 @@ const LatestArticles = () => {
       title: 'Receive money in any currency with no fees',
       excerpt:
         'The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single ...',
-      image: '/images/article-currency.jpg',
+      image: '/images/image-currency.jpg',
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ const LatestArticles = () => {
       title: 'Treat yourself without worrying about money',
       excerpt:
         'Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you ...',
-      image: '',
+      image: '/images/image-restaurant.jpg',
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ const LatestArticles = () => {
       title: 'Take your Easybank card wherever you go',
       excerpt:
         'We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you ...',
-      image: '',
+      image: '/images/image-plane.jpg',
     },
     {
       id: 4,
@@ -32,7 +32,7 @@ const LatestArticles = () => {
       title: 'Our invite-only Beta accounts are now live!',
       excerpt:
         'Stay informed with the latest insights and updates from our team. From smart financial tips to exciting product announcements, our curated articles are designed to help you get the most out of your experience. Whether you are managing money on the go or exploring new features, there is something here for everyone.',
-      image: '',
+      image: '/images/image-confetti.jpg',
     },
   ];
 
