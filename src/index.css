@@ -15,6 +15,7 @@
   --White: hsl(0, 0%, 100%);
 }
 #section {
+  width: 100%;
   padding: 6rem 0;
   padding-left: 5rem;
   background-color: var(--Light-Grayish-Blue);

@@ -1,8 +1,8 @@
 import React from "react";
-import online from "./assets/images/icon-online.svg";
-import simple from "./assets/images/icon-budgeting.svg";
-import fast from "./assets/images/icon-onboarding.svg";
-import open from "./assets/images/icon-api.svg";
+import online from "../assets/images/icon-online.svg";
+import simple from "../assets/images/icon-budgeting.svg";
+import fast from "../assets/images/icon-onboarding.svg";
+import open from "../assets/images/icon-api.svg";
 
 const Section1 = () => {
   return (
