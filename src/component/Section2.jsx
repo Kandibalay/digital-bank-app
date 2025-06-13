@@ -1,4 +1,6 @@
 import React from 'react';
+import Image1 from '../assets/images/image-currency.jpg'
+
 
 const LatestArticles = () => {
   const articles = [
