@@ -39,8 +39,10 @@ const LatestArticles = () => {
   ];
 
   return (
-    <section className="bg-gray-50 py-16 px-4 md:px-20">
-      <h2 className="text-3xl md:text-4xl font-semibold text-gray-800 mb-10">
+    <div className="bg-gray-50 py-16 px-auto w-full md:px-20">
+    <section className="max-w-[1440px] m-auto">
+      <div>
+        <h2 className="text-3xl md:text-4xl font-semibold text-gray-800 mb-10">
         Latest Articles
       </h2>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
@@ -64,7 +66,9 @@ const LatestArticles = () => {
           </div>
         ))}
       </div>
+      </div>
     </section>
+    </div>
   );
 };
 
