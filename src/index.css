@@ -1,1 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /* ### Primary */
+
+  --Dark-Blue: hsl(233, 26%, 24%);
+  --Lime-Green: hsl(136, 65%, 51%);
+  --BrightCyan: hsl(192, 70%, 51%);
+
+  /* ### Neutral */
+
+  --Grayish-Blue: hsl(233, 8%, 62%);
+  --Light-Grayish-Blue: hsl(220, 16%, 96%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+}
+#section {
+  width: 100%;
+  padding: 6rem 0;
+  padding-left: 5rem;
+  background-color: var(--Light-Grayish-Blue);
+}
+.div-con {
+  max-width: 1440px;
+  margin: auto;
+  font-family: "Public Sans", sans-serif;
+}
+
+.first-div {
+  margin-bottom: 5rem;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0;
+  color: var(--Dark-Blue);
+}
+
+.div-con .p {
+  width: 45%;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--Grayish-Blue);
+}
+
+.second-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--Dark-Blue);
+}
+
+.second-div p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-right: 56px;
+  color: var(--Grayish-Blue);
+}
+
+@media (max-width: 768px) {
+  #section {
+    padding-left: 1rem;
+  }
+
+  .div-con {
+    width: 90%;
+  }
+
+  .div-con .p {
+    width: 100%;
+  }
+
+  .second-div {
+    flex-direction: column;
+  }
+
+  .second-div p {
+    padding-right: 0;
+  }
+}
 @import "tailwindcss";
