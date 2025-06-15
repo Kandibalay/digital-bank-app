@@ -1,1 +1,22 @@
-
+.hero{
+    background: url('./assets/images/bg-intro-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    
+  }
+  @media screen and (width < 768px) {
+    .hero {
+      background: url('./assets/images/bg-intro-mobile.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-position: center;
+    }
+    
+  }
